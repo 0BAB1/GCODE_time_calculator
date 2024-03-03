@@ -2,17 +2,19 @@
 
 ![image](https://github.com/0BAB1/gcodeEstimator/assets/62248962/c089e62d-b073-45a9-a495-fc66f3cf5ddd)
 
-## Estimate your machinning time... Instantly
+## Estimate your machinning time... Instantly !
 
-### And use the dynamic CSV module to make changes directly into excel and estmate the costs !
+Cost estimation on legacy CNC Code has never been easier... Woo said you need CAM software ?
+
+## Use the power of spreadsheets to make changes directly into excel and estmate the costs !
 
 This python script interprets a gcode file and resturns a list containing the time data and relevant infos by interpreting the G Code.
 
 This output has been designed to be converted as a CSV file. meaning each list element is a line, containing column elements.
 
-## Usage
+# DOCUMENTATION
 
-first, import the estimation package :
+First, import the estimation package :
 
 ```import estimation```
 
