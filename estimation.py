@@ -1,4 +1,7 @@
-from timeEstimator.machines import FanucLathe
+try :
+    from timeEstimator.machines import FanucLathe
+except ModuleNotFoundError or ImportError:
+    from .timeEstimator.machines import FanucLathe
 import os
 
 def run(file_path : str, excel_mode= False) -> (float,list):
