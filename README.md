@@ -1,5 +1,10 @@
 # Gcode Time estimator V1.0 by Hugo.B
 
+-> PLATFORM SUPPORT :
+- FANUC      OK
+- ISO        X
+- HEIDENHEIN X
+
 ![image](https://github.com/0BAB1/gcodeEstimator/assets/62248962/c089e62d-b073-45a9-a495-fc66f3cf5ddd)
 
 ## Estimate your machinning time... Instantly !
