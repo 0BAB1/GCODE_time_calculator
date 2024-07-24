@@ -4,4 +4,5 @@ __pycache__/
 .pytest_cache
 csv
 testCSV.py
+main.py
 tests/__pycache__
