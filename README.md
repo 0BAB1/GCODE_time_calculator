@@ -1,6 +1,12 @@
 # Gcode Time estimator V1.0 by Hugo.B
 
--> PLATFORM SUPPORT :
+## Future work :
+
+- Allow the user to choose what data to store when machine state is altred.
+- Generalize GCODEs and implement other CNC brands codes.
+- Clean the machine code to really put the emphasis on the "state machine" logic (and externalise CSV methods)
+
+### PLATFORM SUPPORT :
 - FANUC      OK
 - ISO        X
 - HEIDENHEIN X
@@ -135,6 +141,8 @@ FANUC for Lathes (Biglia constructor):
 - G53, G54, .. (set origin) (not sure to add this one)
 
 # Testing the code
+
+When modifying the logic, some code samples are provided to see
 
 Go to ./tests folder and add your test file named like this : `test_yourFileNameHere.py`
 

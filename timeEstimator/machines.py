@@ -4,8 +4,15 @@ from .utils import *
 import re
 
 class FanucLathe():
-    """basic interpreter for fanuc biglia lathe gcode"""
-    """represents the CNC machine from the BIGLIA brand (CNC fanus Gcode) go inside machine.py to configure the lathe to correspond to your lathe's specifications, i suggest you review this code and copy this class to modify it and suit you type of lathe's configuration"""
+    """
+        Description :
+            FANUC Gcode interpreter for lathe with Y axis support
+            This object works as a state machine.
+        Usage :
+            On each program line, use the interpret(line) to read a program
+            line and alter the state.
+            Changes will get stored for CSV conversion and analysis later on.
+    """
     def __init__(self) -> None:
         #position
         self.posX = 0
